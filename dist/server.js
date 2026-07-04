@@ -29,7 +29,7 @@ const startServer = async () => {
         });
     }
     catch (error) {
-        console.error('errorrr : Unable to connect to the database:', error);
+        console.error('errorrr Customers fetched successfully : Unable to connect to the database:', error);
         process.exit(1);
     }
 };
