@@ -9,7 +9,7 @@
 A robust, highly secure, and highly scalable RESTful API built to manage customer loan accounts and process EMI payments. This repository contains the **Backend** service, built using Node.js, Express, TypeScript, and MySQL.
 
 ## 🚀 Live API Base URL
-- **Production Endpoint**: `http://pay-app.duckdns.org/api`
+- **Production Endpoint**: `http://pay-app.duckdns.org/`
 
 ## 📑 Table of Contents
 1. [Project Overview](#project-overview)
