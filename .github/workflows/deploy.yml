@@ -17,7 +17,9 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /var/www/payment-collection/backend
+            git reset --hard HEAD
             git pull origin main
+            chmod +x node_modules/.bin/tsc
             npm install
             npm run build
             pm2 restart payment-collection-api
