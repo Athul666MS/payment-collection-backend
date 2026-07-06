@@ -13,7 +13,7 @@ A robust, highly secure, and highly scalable RESTful API built to manage custome
 
 ## 📑 Table of Contents
 1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
+2. [Key Features](#key-features)  
 3. [Technology Stack](#technology-stack)
 4. [Architecture & Folder Structure](#architecture-folder-structure)
 5. [Local Setup Instructions](#local-setup-instructions)
@@ -24,6 +24,7 @@ A robust, highly secure, and highly scalable RESTful API built to manage custome
 
 ---
 
+<a name="project-overview"></a>
 ## 🎯 Project Overview
 The backend acts as the core engine for the Payment Collection System. It handles all critical business logic, including:
 - Providing detailed customer and loan data.
@@ -33,6 +34,7 @@ The backend acts as the core engine for the Payment Collection System. It handle
 
 ---
 
+<a name="key-features"></a>
 ## ✨ Key Features
 - **Type-Safe Architecture**: 100% written in TypeScript to guarantee compile-time safety and eliminate runtime type errors.
 - **Production-Ready Security**: Implements Helmet, express-rate-limit, strict CORS policies, and XSS sanitization.
@@ -42,6 +44,7 @@ The backend acts as the core engine for the Payment Collection System. It handle
 
 ---
 
+<a name="technology-stack"></a>
 ## 🛠 Technology Stack
 | Category | Technology |
 |---|---|
@@ -55,6 +58,7 @@ The backend acts as the core engine for the Payment Collection System. It handle
 
 ---
 
+<a name="architecture-folder-structure"></a>
 ## 📂 Architecture & Folder Structure
 
 ```text
@@ -78,6 +82,7 @@ backend/
 
 ---
 
+<a name="local-setup-instructions"></a>
 ## 💻 Local Setup Instructions
 
 ### Prerequisites
@@ -104,6 +109,7 @@ backend/
 
 ---
 
+<a name="environment-configuration"></a>
 ## ⚙️ Environment Configuration
 
 Create a `.env` file in the root directory. The application relies on these variables to connect to the database securely.
@@ -122,6 +128,7 @@ DB_NAME=payment_collection
 
 ---
 
+<a name="security-validation"></a>
 ## 🛡️ Security & Validation
 
 We take security seriously. The API is fortified with:
@@ -132,6 +139,7 @@ We take security seriously. The API is fortified with:
 
 ---
 
+<a name="deployment-cicd"></a>
 ## 🚀 Deployment (CI/CD)
 
 The backend is deployed to an **AWS EC2 Ubuntu** instance. 
@@ -142,6 +150,7 @@ The backend is deployed to an **AWS EC2 Ubuntu** instance.
 
 ---
 
+<a name="detailed-documentation"></a>
 ## 📖 Detailed Documentation
 
 For an in-depth look at our architecture and API endpoints, please refer to the following documents included in this repository:
