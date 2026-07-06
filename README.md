@@ -15,10 +15,10 @@ A robust, highly secure, and highly scalable RESTful API built to manage custome
 1. [Project Overview](#project-overview)
 2. [Key Features](#key-features)
 3. [Technology Stack](#technology-stack)
-4. [Architecture & Folder Structure](#architecture--folder-structure)
+4. [Architecture & Folder Structure](#architecture-folder-structure)
 5. [Local Setup Instructions](#local-setup-instructions)
 6. [Environment Configuration](#environment-configuration)
-7. [Security & Validation](#security--validation)
+7. [Security & Validation](#security-validation)
 8. [Deployment (CI/CD)](#deployment-cicd)
 9. [Detailed Documentation](#detailed-documentation)
 
@@ -54,8 +54,6 @@ The backend acts as the core engine for the Payment Collection System. It handle
 | **Reverse Proxy** | Nginx |
 
 ---
-
-<a id="architecture--folder-structure"></a>
 
 ## 📂 Architecture & Folder Structure
 
@@ -124,8 +122,6 @@ DB_NAME=payment_collection
 
 ---
 
-<a id="security--validation"></a>
-
 ## 🛡️ Security & Validation
 
 We take security seriously. The API is fortified with:
@@ -135,8 +131,6 @@ We take security seriously. The API is fortified with:
 - **Zod Validation**: Prevents malicious or malformed JSON payloads from reaching the controllers.
 
 ---
-
-<a id="deployment-cicd"></a>
 
 ## 🚀 Deployment (CI/CD)
 
