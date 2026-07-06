@@ -55,6 +55,8 @@ The backend acts as the core engine for the Payment Collection System. It handle
 
 ---
 
+<a id="architecture--folder-structure"></a>
+
 ## 📂 Architecture & Folder Structure
 
 ```text
@@ -122,6 +124,8 @@ DB_NAME=payment_collection
 
 ---
 
+<a id="security--validation"></a>
+
 ## 🛡️ Security & Validation
 
 We take security seriously. The API is fortified with:
@@ -131,6 +135,8 @@ We take security seriously. The API is fortified with:
 - **Zod Validation**: Prevents malicious or malformed JSON payloads from reaching the controllers.
 
 ---
+
+<a id="deployment-cicd"></a>
 
 ## 🚀 Deployment (CI/CD)
 
